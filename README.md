@@ -5,6 +5,8 @@ Master's thesis, Erasmus Mundus **Big Data Management & Analytics (BDMA)**, carr
 **Author:** Stefanos Kypritidis
 
 **Advisor:** Piotr Antonik (CentraleSupélec & ZoeCare)
+
+> The code is not public, as the thesis was carried out within ZoeCare. This repository contains the full thesis report and the defense slides.
  
 ## Contents
  
@@ -22,6 +24,4 @@ Main results:
 - A Siamese trunk with shared weights per link, targeted augmentation and test-time adaptation reaches **0.766 macro-F1** on six activities and **0.918** after merging the chair and floor endpoints, in unseen rooms.
 - Performance holds in **real-time** use and on **continuous recordings**, with errors mostly at transitions between activities.
 - The second link helps most during data collection. At deployment, a single well-placed link comes within 3–4 macro-F1 points of the two-link fusion. Recommendation: **collect with two pairs, deploy with one.**
- 
-**Keywords:** Human Activity Recognition · Wi-Fi Sensing · Channel State Information · Cross-Environment Generalisation · Elderly Care · ESP32
- 
+  
